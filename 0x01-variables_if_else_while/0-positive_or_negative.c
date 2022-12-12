@@ -24,12 +24,12 @@ printf("%d is zero\n", n);
 else if (n < 0)
 {
     /* Print number is negative */
-printf("The number is negative");
+printf("%d is negative\n", n);
 }
 else
 {
 	/* Print the number is positive*/
-printf("The number is positive");
+printf("%d is positive\n", n);
 }
 return (0);
 }
