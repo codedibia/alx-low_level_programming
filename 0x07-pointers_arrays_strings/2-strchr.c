@@ -4,8 +4,8 @@
 /**
  * _strchr - a function that locates a character in a string.
  *
- * @s - string to br searched
- * @c - character to be searched for
+ * @s: string to br searched
+ * @c: character to be searched for
  *
  * Return: Returns pointer
  */
