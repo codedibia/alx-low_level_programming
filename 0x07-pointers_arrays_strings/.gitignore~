@@ -1,0 +1,4 @@
+.gitignore
+*main.c
+_putchar.c0-memset
+\n1-memcpy
