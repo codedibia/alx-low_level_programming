@@ -8,7 +8,7 @@
  * @argc: argument count
  * @argv: argument vectors
  *
- * Return - Returns always 0.
+ * Return: Returns always 0.
  */
 
 int main(int __attribute__((unused)) argc, char *argv[])
