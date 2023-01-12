@@ -13,6 +13,8 @@
 
 int main(int argc, __attribute__((unused))char *argv[])
 {
-	printf ("The number of arguments passed into main is %d\n", argc);
+	int args = argc - 1;
+
+	printf("The number of arguments passed into main is %d\n", args);
 		return (0);
 }
