@@ -7,7 +7,8 @@
  *
  * Return: always 0 (Success)
  */
-int main() {
+int main(void)
+{
 	printf("The size of char is %ld bytes\n", sizeof(char));
 	printf("The size of short is %ld bytes\n", sizeof(short));
 	printf("The size of int is %ld bytes\n", sizeof(int));
@@ -16,5 +17,6 @@ int main() {
 	printf("The size of float is %ld bytes\n", sizeof(float));
 	printf("The size of double is %ld bytes\n", sizeof(double));
 	printf("The size of long double is %ld bytes\n", sizeof(long double));
-	return 0;
+
+	return (0);
 }
