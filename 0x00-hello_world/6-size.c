@@ -8,16 +8,18 @@
  *
  * Return: always 0 (Success)
  */
-int main(void)
+int main()
 {
-	printf("The size of char is %ld bytes\n", sizeof(char));
-	printf("The size of short is %ld bytes\n", sizeof(short));
-	printf("The size of int is %ld bytes\n", sizeof(int));
-	printf("The size of long is %ld bytes\n", sizeof(long));
-	printf("The size of long long is %ld bytes\n", sizeof(long long));
+	printf("The size of int8_t is %ld bytes\n", sizeof(int8_t));
+	printf("The size of uint8_t is %ld bytes\n", sizeof(uint8_t));
+	printf("The size of int16_t is %ld bytes\n", sizeof(int16_t));
+	printf("The size of uint16_t is %ld bytes\n", sizeof(uint16_t));
+	printf("The size of int32_t is %ld bytes\n", sizeof(int32_t));
+	printf("The size of uint32_t is %ld bytes\n", sizeof(uint32_t));
+	printf("The size of int64_t is %ld bytes\n", sizeof(int64_t));
+	printf("The size of uint64_t is %ld bytes\n", sizeof(uint64_t));
 	printf("The size of float is %ld bytes\n", sizeof(float));
 	printf("The size of double is %ld bytes\n", sizeof(double));
 	printf("The size of long double is %ld bytes\n", sizeof(long double));
-
 	return (0);
 }
