@@ -8,7 +8,7 @@
  *
  * Return: always 0 (Success)
  */
-int main()
+int main(void)
 {
 	printf("The size of int8_t is %ld bytes\n", sizeof(int8_t));
 	printf("The size of uint8_t is %ld bytes\n", sizeof(uint8_t));
