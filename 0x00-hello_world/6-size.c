@@ -7,13 +7,14 @@
  *
  * Return: always 0 (Success)
  */
-int main(void)
-{
-printf("Size of a char: %d byte(s)\n", (int) sizeof(char));
-printf("Size of an int: %d bytes(s)\n", (int) sizeof(int));
-printf("Size of a long int: %d byte(s)\n", (int) sizeof(long int));
-printf("Size of long long int: %d byte(s)\n", (int) sizeof(long long int));
-printf("Size of a float: %d byte(s)\n", (int) sizeof(float));
-
-return (0);
+int main() {
+	printf("The size of char is %ld bytes\n", sizeof(char));
+	printf("The size of short is %ld bytes\n", sizeof(short));
+	printf("The size of int is %ld bytes\n", sizeof(int));
+	printf("The size of long is %ld bytes\n", sizeof(long));
+	printf("The size of long long is %ld bytes\n", sizeof(long long));
+	printf("The size of float is %ld bytes\n", sizeof(float));
+	printf("The size of double is %ld bytes\n", sizeof(double));
+	printf("The size of long double is %ld bytes\n", sizeof(long double));
+	return 0;
 }
